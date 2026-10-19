@@ -1,0 +1,31 @@
+{
+  "name": "shlok-chaturvedi-portfolio",
+  "version": "1.0.0",
+  "description": "Professional Full-Stack MERN Portfolio Website for Shlok Chaturvedi",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/shlok-ch/portfolio-website-.git"
+  },
+  "homepage": "https://github.com/shlok-ch/portfolio-website-#readme",
+  "scripts": {
+    "install:all": "npm --prefix client install && npm --prefix server install",
+    "dev:server": "npm --prefix server run dev",
+    "dev:client": "npm --prefix client run dev",
+    "start:server": "npm --prefix server start",
+    "build:client": "npm --prefix client run build",
+    "test:server": "npm --prefix server test",
+    "test": "npm run test:server",
+    "build": "npm run build:client"
+  },
+  "keywords": [
+    "portfolio",
+    "mern",
+    "react",
+    "express",
+    "mongodb",
+    "full-stack",
+    "shlok-chaturvedi"
+  ],
+  "author": "Shlok Chaturvedi",
+  "license": "MIT"
+}
